@@ -1,0 +1,9 @@
+# Dependencias del cliente MTIS.
+# requests ya se usa para invocar los flujos HTTP/SOAP de Mule.
+requests>=2.31.0
+
+# Recomendado para la consola de monitorización de Office 3.
+# La aplicación intenta usar mysql-connector-python de forma preferente y, si
+# no está disponible, puede funcionar también con PyMySQL si el usuario lo tiene
+# instalado. Se declara aquí la opción recomendada para simplificar la puesta en marcha.
+mysql-connector-python>=9.0.0
